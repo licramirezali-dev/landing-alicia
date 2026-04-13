@@ -175,10 +175,12 @@ button {
     margin: 0;
 }
 
+
 .menu a {
     text-decoration: none;
     color: grey;
     font-weight: bold;
+    list-style: none;
 }
 
 .menu a:hover {
