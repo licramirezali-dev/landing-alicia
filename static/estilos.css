@@ -1,0 +1,209 @@
+/* Estilos generales */
+
+header {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 40px;
+    align-items: center;
+    background-color: white;
+    border: 2px solid turquoise;
+}
+
+
+header img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    opacity: 0.95;
+    margin: 15px 0;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.pagina-index {
+    background-color: #E0FFFF;
+}
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: lightblue;
+    color: black;  
+}
+
+section {
+    background-color: white;
+    border: 2px solid turquoise;
+}
+.servicios {
+    color: black;  
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre-mi {
+
+    color: black;  
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* Botón */
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #E0FFFF; /* fondo rosa */
+    color: black;               /* texto negro */
+}
+
+.alerta {
+    background-color: #d4edda; /* verde suave */
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-inicio {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: turquoise;
+    color:black ;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-contacto {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: lightcoral;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.btn-volver:hover {
+    background-color: turquoise;
+}
+
+
+.lista-problemas {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista-problemas li {
+    margin-bottom: 10px; /* espacio entre cada ítem */
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25D366; /* color WhatsApp */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none; /* quita subrayado */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: fit-content;
+    margin: 15px auto;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+
+
+
+
+.btn-whatsapp:hover {
+    background-color: #1ebe57; /* color al pasar el mouse */
+}
+
+
+/* Mensajes */
+.mensaje-exito {
+    color: green;
+    margin-bottom: 15px;
+}
+
+.mensaje-error {
+    color: red;
+    margin-bottom: 15px;
+} 
+
+
+/* MENÚ SUPERIOR */
+.menu {
+    background-color: turquoise;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
