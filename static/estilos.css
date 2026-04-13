@@ -180,13 +180,18 @@ button {
 .servicios-lista, .beneficios {
     text-align: left;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
 }
 
-.beneficios li {
-    text-align: left;
+.beneficios {
+    text-align: right;
 }
+
+.sobre-mi p {
+    margin-bottom: 20px;
+}
+
 
 .menu a {
     text-decoration: none;
