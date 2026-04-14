@@ -34,6 +34,17 @@ body {
     padding: 20px 15px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo img {
+    height: 50px; /* controlás el tamaño acá */
+}
+
 @media (max-width: 768px) {
     body {
         padding: 12px 20px;
@@ -198,6 +209,9 @@ button {
     color: grey;
     font-weight: bold;
 }
+.menu a:hover {
+    text-decoration: underline;
+}
 
 .menu ul {
     list-style: none;
@@ -206,9 +220,7 @@ button {
     display: flex;
     gap: clamp(20px, 5vw, 80px);
 }
-.menu a:hover {
-    text-decoration: underline;
-}
+
 
 body {
     margin: 0;
